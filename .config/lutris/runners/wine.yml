@@ -1,0 +1,6 @@
+system: {}
+wine:
+  esync: false
+  fsync: false
+  system_winetricks: true
+  version: Proton - Experimental

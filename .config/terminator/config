@@ -1,0 +1,21 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.93
+    background_type = transparent
+    font = DroidSansM Nerd Font 14
+    show_titlebar = False
+    scrollbar_position = hidden
+    use_system_font = False
+    title_transmit_bg_color = "#000000"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
